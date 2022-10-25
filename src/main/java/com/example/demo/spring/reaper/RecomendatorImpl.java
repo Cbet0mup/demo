@@ -1,7 +1,7 @@
 package com.example.demo.spring.reaper;
 
 public class RecomendatorImpl implements Recomendator {
-    @InjectProperty
+    @InjectProperty("whisky")
     private String alcohol;
 
     @Override
