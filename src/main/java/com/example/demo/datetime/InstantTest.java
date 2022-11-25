@@ -1,7 +1,5 @@
-package com.example.demo.date;
+package com.example.demo.datetime;
 
-import java.sql.Time;
-import java.sql.Timestamp;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 

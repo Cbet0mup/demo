@@ -1,0 +1,87 @@
+<IRP_LIST>
+    <IRP>
+        <N_IRP>42009_220622_2296252</N_IRP>
+        <IRP_TYPE>1</IRP_TYPE>
+        <DATE_CREATE>2022-06-22</DATE_CREATE>
+        <TIME_CREATE>12:50</TIME_CREATE>
+        <WAY>1</WAY>
+        <HOW>1</HOW>
+        <THEME>4.5.</THEME>
+        <TEXT>нет записи на исследования</TEXT>
+        <OTV_T>2</OTV_T>
+        <OTV_KON>42009</OTV_KON>
+        <EMPLOYEE_1>Подобедова Светлана Викторовна</EMPLOYEE_1>
+        <EMPLOYEE_IT>Андреева Жанна Владимировна</EMPLOYEE_IT>
+        <Z_SV>
+            <Z_F>БОЙКОВА</Z_F>
+            <Z_I>ТАТЬЯНА</Z_I>
+            <Z_O>АНАТОЛЬЕВНА</Z_O>
+            <Z_DR>1980-04-12</Z_DR>
+            <Z_ENP>4255910887000549</Z_ENP>
+            <Z_SMO>42009</Z_SMO>
+            <PHONE>79236113962</PHONE>
+        </Z_SV>
+        <IN_SV>
+            <IN_F>БОЙКОВА</IN_F>
+            <IN_I>ТАТЬЯНА</IN_I>
+            <IN_O>АНАТОЛЬЕВНА</IN_O>
+            <IN_DR>1980-04-12</IN_DR>
+            <IN_ENP>4255910887000549</IN_ENP>
+            <IN_SMO>42009</IN_SMO>
+        </IN_SV>
+        <DATA_PLAN>2022-07-22</DATA_PLAN>
+        <DATE_CLOSE>2022-06-23</DATE_CLOSE>
+        <RESULT>1</RESULT>
+        <LINE_1>3</LINE_1>
+        <LINE_IT>3</LINE_IT>
+        <TERR>5</TERR>
+        <MO_ERR>0</MO_ERR>
+        <TEXT_RESULT>При содействии ст. регистратора ДЦ организована запись ЗЛ на исследования:
+            Электромиография верхних конечностей 11.07.2022, 12:00, каб. 524 а;
+            ЭХО-КГ 11.07.2022, 13:00, каб. 626 а;
+            Электроэнцефалография с нагрузочными пробами 27.07.2022, 10:30, каб. 522;
+            Дуплексное сканирование 27.07.2022, 11:30, каб. 626;
+            УЗИ почек, надпочечников, щитовидной железы, паращитовидной железы 27.07.2022, 14:00, каб. 607.
+            ЗЛ проинформирована, удовлетворена решением вопроса.
+        </TEXT_RESULT>
+    </IRP>
+    <IRP>
+        <N_IRP>42009_220623_2298723</N_IRP>
+        <IRP_TYPE>1</IRP_TYPE>
+        <DATE_CREATE>2022-06-23</DATE_CREATE>
+        <TIME_CREATE>14:21</TIME_CREATE>
+        <WAY>1</WAY>
+        <HOW>1</HOW>
+        <THEME>4.6.1.</THEME>
+        <TEXT>нет записи на УЗИ</TEXT>
+        <OTV_T>2</OTV_T>
+        <OTV_KON>42009</OTV_KON>
+        <EMPLOYEE_1>Пономарева Мария Сергеевна</EMPLOYEE_1>
+        <EMPLOYEE_IT>Андреева Жанна Владимировна</EMPLOYEE_IT>
+        <Z_SV>
+            <Z_F>ШУШУРИНА</Z_F>
+            <Z_I>ЛЮДМИЛА</Z_I>
+            <Z_O>ИВАНОВНА</Z_O>
+            <Z_DR>1954-05-09</Z_DR>
+            <Z_ENP>4254540890000128</Z_ENP>
+            <Z_SMO>42009</Z_SMO>
+            <PHONE>79131375864</PHONE>
+        </Z_SV>
+        <IN_SV>
+            <IN_F>ШУШУРИНА</IN_F>
+            <IN_I>ЛЮДМИЛА</IN_I>
+            <IN_O>ИВАНОВНА</IN_O>
+            <IN_DR>1954-05-09</IN_DR>
+            <IN_ENP>4254540890000128</IN_ENP>
+            <IN_SMO>42009</IN_SMO>
+        </IN_SV>
+        <DATA_PLAN>2022-07-23</DATA_PLAN>
+        <DATE_CLOSE>2022-06-23</DATE_CLOSE>
+        <RESULT>1</RESULT>
+        <LINE_1>3</LINE_1>
+        <LINE_IT>3</LINE_IT>
+        <TERR>5</TERR>
+        <MO_ERR>0</MO_ERR>
+        <TEXT_RESULT>При содействии старшего регистратора ДЦ организована запись ЗЛ на УЗИ молочных желез и УЗИ матки и придатков на 12.07.2022, 13:30, каб. 604. ЗЛ проинформирована, удовлетворена решением вопроса.</TEXT_RESULT>
+    </IRP>
+</IRP_LIST>
