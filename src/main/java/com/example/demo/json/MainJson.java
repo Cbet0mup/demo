@@ -14,7 +14,7 @@ public class MainJson {
         List<AnswerListDto> list = mapper.readValue(json, new TypeReference<>() {
         });
 
-        System.out.println(list.get(0).getText());
+        //System.out.println(list.get(0).getText());
 
 
     }
