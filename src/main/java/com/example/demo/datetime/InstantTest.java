@@ -2,6 +2,9 @@ package com.example.demo.datetime;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Clock;
+import java.time.Instant;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
@@ -18,7 +21,7 @@ public class InstantTest {
 //
 //        System.out.println("************************************");
 //
-//        Instant instant1 = Clock.system(ZoneId.of("Etc/GMT+3")).instant();
+        Instant instant1 = Clock.system(ZoneId.of("Etc/GMT+3")).instant();
 //        System.out.println(instant1.toString());
 //
 //        Instant instant2 = Clock.systemUTC().instant();
@@ -42,8 +45,41 @@ public class InstantTest {
 //        LocalDateTime localDateTime1 = LocalDateTime.parse(date, formatter);
 //        System.out.println("ldt: " + localDateTime1);
 
-        System.out.println(beginYesterday() + "-----------" + endYesterday());
+        //System.out.println(beginYesterday() + "-----------" + endYesterday());
+
+        System.out.println(instant1.minusSeconds(86400));
     }
+
+    private static String periodDate() {
+        long date1 = 1672592399999L;//
+        long date2 = 1672678799999L;//
+        final SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+
+
+
+        Date fromDate = new Date(date1);
+        Date toDate = new Date(date2);
+        Date endYear = new Date(1672505999999L); //31.12.22
+        Date newYear = new Date(1672592399999L); //1.01.23
+
+        //System.out.println("beginDate: %s \ntoDate: %s".formatted(dateFormat.format(fromDate), dateFormat.format(toDate)));
+
+        if (fromDate.before(newYear) && toDate.before(newYear) && toDate.after(fromDate)) {
+            return "OLD DATE";
+        }
+        if (fromDate.before(newYear) && toDate.after(endYear)) {
+            return "400 Пересечение дат старого и нового отчётного периода.";
+        }
+        if (fromDate.after(endYear) && toDate.after(newYear) && fromDate.before(toDate)) {
+            return "NEW DATE";
+        }
+        if (fromDate.after(toDate)) {
+            return "400 Дата начала периода не может быть позже конечной.";
+        }
+
+        return "400";
+    }
+
 
     public static long beginYesterday() {
         try {
